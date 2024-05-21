@@ -130,32 +130,33 @@ body {
 }
 
 .close {
-    color: #aaa;
+    color: #fff;
     float: right;
     font-size: 36px;
     font-weight: bold;
     cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
 
 .close:hover,
 .close:focus {
-    color: #fff;
+    color: #ff8a00;
     text-decoration: none;
 }
 
 .item-box {
-    background-color: #222;
-    border: 2px solid #333;
-    border-radius: 10px;
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 20px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
 .item-box:hover {
     transform: translateY(-5px);
-    background: #444;
+    background: #222;
 }
 
 .item-details {
@@ -165,11 +166,14 @@ body {
 
 .item-name {
     font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ff8a00;
+    text-transform: uppercase;
 }
 
 .coin-value {
-    color: #ff8a00;
-    font-size: 16px;
+    color: #e52e71;
+    font-size: 18px;
 }
+
