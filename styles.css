@@ -167,7 +167,7 @@ body {
 .item-name {
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     color: #ff8a00;
     text-transform: uppercase;
 }
@@ -175,5 +175,5 @@ body {
 .coin-value {
     color: #e52e71;
     font-size: 18px;
+    margin-top: 5px;
 }
-
