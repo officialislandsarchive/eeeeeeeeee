@@ -38,7 +38,6 @@ body {
         text-shadow: 0 0 20px #ff8a00, 0 0 30px #ff8a00, 0 0 40px #ff8a00, 0 0 50px #e52e71, 0 0 60px #e52e71, 0 0 70px #e52e71, 0 0 80px #e52e71;
     }
 }
-
 .buttons-container-left {
     display: flex;
     gap: 10px;
