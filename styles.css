@@ -144,7 +144,7 @@ body {
 }
 
 .item-box {
-    background-color: #333;
+    background-color: #1f1f1f;
     border: 2px solid #444;
     border-radius: 20px;
     padding: 20px;
@@ -155,7 +155,7 @@ body {
 
 .item-box:hover {
     transform: translateY(-5px);
-    background: #222;
+    background: #121212; /* Darker background on hover */
 }
 
 .item-details {
@@ -165,14 +165,26 @@ body {
 
 .item-name {
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 10px;
     color: #ff8a00;
     text-transform: uppercase;
+    letter-spacing: 1px; /* Slight letter spacing */
 }
 
 .coin-value {
     color: #e52e71;
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 20px; /* Larger font size */
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline-block; /* Display as block */
+    background-color: #222; /* Background color for better contrast */
+    padding: 5px 10px; /* Padding for the coin value */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.coin-value:before {
+    content: "Coin Value: "; /* Prefix before coin value */
+    color: #ff8a00; /* Prefix color */
+    font-weight: bold;
 }
